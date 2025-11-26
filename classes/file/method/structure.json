@@ -1,0 +1,92 @@
+{
+	"base64": {
+		"name": "base64",
+		"description": "кодирование в Base64"
+	},
+	"crc32": {
+		"name": "crc32",
+		"description": "подсчет контрольной суммы файла"
+	},
+	"md5": {
+		"name": "md5",
+		"description": "MD5-отпечаток файла"
+	},
+	"save": {
+		"name": "save",
+		"description": "сохранение файла на диске"
+	},
+	"sql-string": {
+		"name": "sql-string",
+		"description": "сохранение файла на SQL-сервере"
+	},
+	"base64-static": {
+		"name": "base64",
+		"description": "кодирование в Base64",
+		"static": true
+	},
+	"basename": {
+		"name": "basename",
+		"description": "имя файла без пути",
+		"static": true
+	},
+	"copy": {
+		"name": "copy",
+		"description": "копирование файла",
+		"static": true
+	},
+	"crc32-static": {
+		"name": "crc32",
+		"description": "подсчет контрольной суммы файла",
+		"static": true
+	},
+	"delete": {
+		"name": "delete",
+		"description": "удаление файла с диска",
+		"static": true
+	},
+	"dirname": {
+		"name": "dirname",
+		"description": "путь к файлу",
+		"static": true
+	},
+	"find": {
+		"name": "find",
+		"description": "поиск файла на диске",
+		"static": true
+	},
+	"fullpath": {
+		"name": "fullpath",
+		"description": "полное имя файла от корня веб-пространства",
+		"static": true
+	},
+	"justext": {
+		"name": "justext",
+		"description": "расширение имени файла",
+		"static": true
+	},
+	"justname": {
+		"name": "justname",
+		"description": "имя файла без расширения",
+		"static": true
+	},
+	"list": {
+		"name": "list",
+		"description": "получение оглавления каталога",
+		"static": true
+	},
+	"lock": {
+		"name": "lock",
+		"description": "эксклюзивное выполнение кода",
+		"static": true
+	},
+	"md5-static": {
+		"name": "md5",
+		"description": "MD5-отпечаток файла",
+		"static": true
+	},
+	"move": {
+		"name": "move",
+		"description": "перемещение или переименование файла",
+		"static": true
+	}
+}

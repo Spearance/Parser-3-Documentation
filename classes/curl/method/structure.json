@@ -1,0 +1,22 @@
+{
+	"info": {
+    "name": "info",
+    "description": "информация о последнем запросе"
+	},
+	"load": {
+    "name": "load",
+    "description": "загрузка файла с удаленного сервера"
+	},
+	"options": {
+    "name": "options",
+    "description": "задание опций для сессии"
+	},
+	"session": {
+    "name": "session",
+    "description": "создание сессии"
+	},
+	"version": {
+    "name": "version",
+    "description": "возвращает текущую версию cURL."
+	}
+}

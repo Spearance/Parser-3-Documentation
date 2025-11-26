@@ -1,0 +1,13 @@
+/cgi-bin/
+/data/cache/
+/data/counter/
+/data/debug/
+/data/log/
+/templates/styles/scss/.sass-cache/
+/templates/.codekit-cache/
+/htdocs/download/
+sitemap.xml
+
+.DS_Store
+*.scssc
+config.codekit3

@@ -1,0 +1,49 @@
+{
+	"int-double":{
+		"name": "int, double",
+		"description": "преобразование даты в число"
+	},
+	"gmt-string":{
+		"name": "gmt-string",
+		"description": "вывод даты в виде строки в формате RFC 822"
+	},
+	"iso-string":{
+		"name": "iso-string",
+		"description": "вывод даты в виде строки в формате ISO 8601"
+	},
+	"last-day":{
+		"name": "last-day",
+		"description": "получение последнего дня месяца"
+	},
+	"roll":{
+		"name": "roll",
+		"description": "cдвиг даты"
+	},
+	"sql-string":{
+		"name": "sql-string",
+		"description": "преобразование даты в вид, стандартный для СУБД"
+	},
+	"unix-timestamp":{
+		"name": "unix-timestamp",
+		"description": "преобразование даты и времени в UNIX формат"
+	},
+	"calendar-week":{
+		"name": "calendar",
+		"description": "создание календаря на заданную неделю месяца",
+		"static": true
+	},
+	"calendar-month":{
+		"name": "calendar",
+		"description": "создание календаря на заданный месяц",
+		"static": true
+	},
+	"last-day-static":{
+		"name": "last-day",
+		"description": "получение последнего дня указанного месяца",
+		"static": true
+	},
+	"roll-static":{
+		"name": "roll",
+		"description": "установка временной зоны по умолчанию"
+	}
+}

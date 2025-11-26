@@ -1,0 +1,26 @@
+{
+	"base64": {
+		"name": "base64",
+		"description": "декодирование из Base64"
+	},
+	"cgi-exec": {
+		"name": "cgi и exec",
+		"description": "исполнение программы"
+	},
+	"create": {
+		"name": "create",
+		"description": "создание файла"
+	},
+	"load": {
+		"name": "load",
+		"description": "загрузка файла с диска или HTTP-сервера"
+	},
+	"sql": {
+		"name": "sql",
+		"description": "загрузка файла с SQL-сервера"
+	},
+	"stat": {
+		"name": "stat",
+		"description": "получение информации о файле"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"read":{
+		"name": "чтение",
+		"description": "строки"
+	},
+	"write": {
+		"name": "запись",
+		"description": "строки"
+	}
+}

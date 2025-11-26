@@ -1,0 +1,19 @@
+{
+	"format":{
+		"name": "format",
+		"description": "вывод числа в заданном формате"
+	},
+		"inc-dec-mul-div-mod": {
+			"name": "inc, dec, mul, div, mod",
+			"description": "простые операции над числами"
+	},
+	"int-double-bool": {
+		"name": "int, double, bool",
+		"description": "преобразование объектов в числа или bool"
+	},
+	"sql": {
+		"name": "sql",
+		"description": "получение числа из базы данных",
+		"static": true
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"add":{
+		"name": "add",
+		"description": "добавление элементов из другого массива или хеша с перезаписью"
+	},
+	"append": {
+		"name": "append",
+		"description": "добавление элементов в конец массива"
+	},
+	"at": {
+		"name": "at, _at",
+		"description": "доступ к элементу массива по порядковому номеру"
+	},
+	"compact": {
+		"name": "compact",
+		"description": "удаление неиници&shy;ализированных элементов"
+	},
+	"contains": {
+		"name": "contains",
+		"description": "проверка существования элемента по индексу"
+	},
+	"count": {
+		"name": "count",
+		"description": "количество элементов массива"
+	},
+	"delete": {
+		"name": "delete",
+		"description": "удаление элемента массива"
+	},
+	"insert": {
+		"name": "insert",
+		"description": "вставка элементов в указанную позицию массива"
+	},
+	"join": {
+		"name": "join",
+		"description": "добавление элементов другого массива или хеша"
+	},
+	"keys": {
+		"name": "keys",
+		"description": "список индексов массива"
+	},
+	"left": {
+		"name": "left",
+		"description": "получение первых n элементов массива"
+	},
+	"mid": {
+		"name": "mid",
+		"description": "получение диапазона элементов массива"
+	},
+	"pop": {
+		"name": "pop",
+		"description": "удаление и возврат последнего элемента массива"
+	},
+	"push": {
+		"name": "push",
+		"description": "добавление элемента в конец массива"
+	},
+	"remove": {
+		"name": "remove",
+		"description": "удаление элемента со сдвигом"
+	},
+	"reverse": {
+		"name": "reverse",
+		"description": "обратный порядок элементов"
+	},
+	"right": {
+		"name": "right",
+		"description": "получение последних n элементов массива"
+	},
+	"select": {
+		"name": "select",
+		"description": "отбор элементов массива"
+	},
+	"set": {
+		"name": "set",
+		"description": "установка значения элемента массива"
+	},
+	"sort": {
+		"name": "sort",
+		"description": "сортировка массива"
+	}
+}

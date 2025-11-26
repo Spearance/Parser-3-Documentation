@@ -1,0 +1,14 @@
+{
+	"read":{
+		"name": "чтение",
+		"description": "значения существующего cookie"
+	},
+	"write": {
+		"name": "запись",
+		"description": "нового или перезапись значения cookie"
+	},
+    "fields": {
+        "name": "fields",
+        "description": "получить все cookie в виде хеша"
+    }
+}

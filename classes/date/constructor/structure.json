@@ -1,0 +1,35 @@
+{
+		"create-db":{
+				"name": "create",
+				"description": "дата/время в стандартном формате для СУБД"
+		},
+		"create-iso": {
+				"name": "create",
+				"description": "дата в формате ISO 8601"
+		},
+		"copy": {
+				"name": "create",
+				"description": "копирование даты"
+		},
+		"create-relative": {
+				"name": "create",
+				"description": "относительная дата"
+		},
+		"create-arbitrary": {
+				"name": "create",
+				"description": "произвольная дата"
+		},
+		"now": {
+				"name": "now",
+				"description": "текущая дата"
+		},
+		"today": {
+				"name": "today",
+				"description": "дата на начало текущего дня"
+		},
+		"unix-timestamp": {
+				"name": "unix-timestamp",
+				"description": "дата и время в формате UNIX"
+		}
+}
+

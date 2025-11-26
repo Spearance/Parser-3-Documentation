@@ -1,0 +1,22 @@
+{
+	"fields": {
+		"name": "fields",
+		"description": "все переменные окружения",
+		"static": true
+	},
+	"parser-version": {
+		"name": "PARSER_VERSION",
+		"description": "получение версии Parser",
+		"static": true
+	},
+	"variables": {
+		"name": "переменные окружения",
+		"description": "получение значений",
+		"static": true
+	},
+	"request-field": {
+		"name": "поля запроса",
+		"description": "получение значений",
+		"static": true
+	}
+}

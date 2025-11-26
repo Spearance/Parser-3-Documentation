@@ -1,0 +1,37 @@
+{
+	"get-value": {
+		"name": "получение значения поля формы",
+		"description": "",
+		"static": true
+	},
+	"elements": {
+		"name": "elements",
+		"description": "массивы всех полей формы",
+		"static": true
+	},
+	"fields": {
+		"name": "fields",
+		"description": "все поля формы",
+		"static": true
+	},
+	"files": {
+		"name": "files",
+		"description": "получение множества файлов",
+		"static": true
+	},
+	"imap": {
+		"name": "imap",
+		"description": "получение координат нажатия в ISMAP",
+		"static": true
+	},
+	"qtail": {
+		"name": "qtail",
+		"description": "получение остатка строки запроса",
+		"static": true
+	},
+	"tables": {
+		"name": "tables",
+		"description": "получение множества значений поля",
+		"static": true
+	}
+}
