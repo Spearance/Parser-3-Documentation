@@ -1,8 +1,8 @@
 # Документация Parser 3.5.0
 
-![Parser 3](/assets/parser.png)
+![Parser 3](/assets/logo.png)
 
-![Птиц](/assets/bird.png)
+![Птиц](/assets/ptic.png)
 
 ## Содержание документации
 
