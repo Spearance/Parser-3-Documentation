@@ -1,0 +1,140 @@
+{
+	"def": {
+		"name": "def",
+		"description": "проверка определенности объекта"
+	},
+	"in": {
+		"name": "in",
+		"description": "проверка наличия документа в каталоге"
+	},
+	"is": {
+		"name": "is",
+		"description": "проверка типа"
+	},
+	"f-d": {
+		"name": "-f и -d",
+		"description": "проверка существования файла и каталога"
+	},
+	"operators-and-priority": {
+		"name": "Операторы в выражениях и их приоритеты",
+		"description": ""
+	},
+	"title-0": {
+		"name": "Вычисления"
+	},
+	"eval": {
+		"name": "eval",
+		"description": "вычисление математических выражений"
+	},
+	"title-1": {
+		"name": "Операторы ветвления"
+	},
+	"if": {
+		"name": "if",
+		"description": "выбор одного варианта из двух"
+	},
+	"switch": {
+		"name": "switch",
+		"description": "выбор одного варианта из нескольких"
+	},
+	"comment": {
+		"name": "Комментарии к частям выражения",
+		"description": ""
+	},
+	"title-2": {
+		"name": "Циклы"
+	},
+	"for": {
+		"name": "for",
+		"description": "цикл с заданным числом повторов"
+	},
+	"while": {
+		"name": "while",
+		"description": "цикл с условием"
+	},
+	"break": {
+		"name": "break",
+		"description": "выход из цикла"
+	},
+	"continue": {
+		"name": "continue",
+		"description": "переход к следующей итерации цикла"
+	},
+	"title-4": {
+		"name": "Внешние и внутренние данные"
+	},
+	"data": {
+		"name": "Общая теория",
+		"description": ""
+	},
+	"taint": {
+		"name": "taint",
+		"description": "задание преобразований данных"
+	},
+	"untaint": {
+		"name": "untaint",
+		"description": "задание преобразований данных"
+	},
+	"apply-taint": {
+		"name": "apply-taint",
+		"description": "применение преобразований данных"
+	},
+	"title-5": {
+		"name": "Обработка ошибок"
+	},
+	"handle-errors": {
+		"name": "Общая теория",
+		"description": ""
+	},
+	"try": {
+		"name": "try",
+		"description": "перехват и обработка ошибок"
+	},
+	"throw": {
+		"name": "throw",
+		"description": "сообщение об ошибке"
+	},
+	"unhandled-exception": {
+		"name": "@unhandled_exception",
+		"description": "вывод необработанных ошибок"
+	},
+	"system-errors": {
+		"name": "Системные ошибки",
+		"description": ""
+	},
+	"title-3": {
+		"name": "Прочие операторы"
+	},
+	"cache": {
+		"name": "cache",
+		"description": "сохранение результатов работы кода"
+	},
+	"connect": {
+		"name": "connect",
+		"description": "подключение к базе данных"
+	},
+	"process": {
+		"name": "process",
+		"description": "компиляция и исполнение строки"
+	},
+	"rem": {
+		"name": "rem",
+		"description": "вставка комментария"
+	},
+	"return": {
+		"name": "return",
+		"description": "возврат из метода"
+	},
+	"sleep": {
+		"name": "sleep",
+		"description": "задержка выполнения программы"
+	},
+	"use": {
+		"name": "use",
+		"description": "подключение модулей"
+	},
+	"user-operators": {
+		"name": "Операторы, определяемые пользователем",
+		"description": ""
+	}
+}

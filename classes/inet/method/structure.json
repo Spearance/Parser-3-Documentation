@@ -1,0 +1,27 @@
+{
+	"aton": {
+		"name": "aton",
+		"description": "преобразование строки с IP-адресом в число",
+		"static": true
+	},
+	"hostname": {
+		"name": "hostname",
+		"description": "имя хоста",
+		"static": true
+	},
+	"ip2name": {
+		"name": "ip2name",
+		"description": "определение домена по IP-адресу",
+		"static": true
+	},
+	"name2ip": {
+		"name": "name2ip",
+		"description": "определение IP-адреса домена",
+		"static": true
+	},
+	"ntoa": {
+		"name": "ntoa",
+		"description": "преобразование числа в строку с IP-адресом",
+		"static": true
+	}
+}

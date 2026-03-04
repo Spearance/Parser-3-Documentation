@@ -1,0 +1,56 @@
+{
+	"config-file": {
+		"name": "Конфигурационный файл"
+	},
+	"config-method": {
+		"name": "Конфигурационный метод"
+	},
+	"charset-format": {
+		"name": "Описание формата файла, описывающего кодировку"
+	},
+	"charsets": {
+		"name": "Кодировки"
+	},
+	"title-0": {
+		"name": "Установка"
+	},
+	"install": {
+		"name": "Установка и настройка Parser 3"
+	},
+	"install-cgi": {
+		"name": "На веб-сервер как CGI"
+	},
+	"install-apache": {
+		"name": "На веб-сервер Apache как модуля сервера"
+	},
+	"install-iis": {
+		"name": "На веб-сервер IIS 8.0 или новее"
+	},
+	"title-1": {
+		"name": "Использование Parser"
+	},
+	"server-like-used": {
+		"name": "В качестве веб-сервера"
+	},
+	"interpreter-like-used": {
+		"name": "В качестве интерпретатора скриптов"
+	},
+	"mail-handler-used": {
+		"name": "В качестве обработчика сообщений электронной почты"
+	},
+	"title-2": {
+		"name": "Исходные коды"
+	},
+	"sourcecode": {
+		"name": "Получение исходных кодов "
+	},
+	"title-3": {
+		"name": "Сборка"
+	},
+	"building-linux": {
+		"name": "Сборка под Linux и другие Unix-подобные системы"
+	},
+	"building-windows": {
+		"name": "Сборка под Windows"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"dom": {
+		"name": "DOM",
+		"description": ""
+	},
+	"search-namespaces": {
+		"name": "search-namespaces",
+		"description": "хеш пространств имен для поиска"
+	}
+}

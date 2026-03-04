@@ -1,0 +1,26 @@
+{
+	"memory": {
+		"name": "memory",
+		"description": "информация о памяти под контролем сборщика мусора"
+	},
+	"log-filename": {
+		"name": "log-filename",
+		"description": "путь к журналу ошибок"
+	},
+	"mode": {
+		"name": "mode",
+		"description": "режим работы"
+	},
+	"pid": {
+		"name": "pid",
+		"description": "идентификатор процесса"
+	},
+	"rusage": {
+		"name": "rusage",
+		"description": "информация о затраченных ресурсах"
+	},
+	"tid": {
+		"name": "tid",
+		"description": "идентификатор потока"
+	}
+}

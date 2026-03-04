@@ -1,0 +1,7 @@
+{
+	"pi-e": {
+		"name": "PI, E",
+		"description": "значения чисел",
+		"static": true
+	}
+}

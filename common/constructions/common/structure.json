@@ -1,0 +1,38 @@
+{
+	"variables": {
+		"name": "Переменные",
+		"description": ""
+	},
+	"hash": {
+		"name": "Хеш",
+		"description": "ассоциативный массив"
+	},
+	"array": {
+		"name": "Массив",
+		"description": "упорядоченная структура данных"
+	},
+	"object": {
+		"name": "Объект класса",
+		"description": "или экземпляр класса"
+	},
+	"static": {
+		"name": "Поля и методы",
+		"description": "статические"
+	},
+	"class": {
+		"name": "Классы",
+		"description": "определяемые пользователем"
+	},
+	"method": {
+		"name": "Методы и операторы",
+		"description": "определяемые пользователем"
+	},
+	"parameters": {
+		"name": "Передача параметров",
+		"description": ""
+	},
+	"properties": {
+		"name": "Свойства",
+		"description": ""
+	}
+}

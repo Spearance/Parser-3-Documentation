@@ -27,6 +27,14 @@
 		"name": "delete",
 		"description": "удаление элемента массива"
 	},
+	"for": {
+		"name": "for",
+		"description": "перебор всех элементов массива"
+	},
+	"foreach": {
+		"name": "foreach",
+		"description": "перебор элементов массива"
+	},
 	"insert": {
 		"name": "insert",
 		"description": "вставка элементов в указанную позицию массива"

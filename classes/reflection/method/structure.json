@@ -1,0 +1,117 @@
+{
+	"base": {
+		"name": "base",
+		"description": "родительский класс объекта",
+		"static": true
+	},
+	"base_name": {
+		"name": "base_name",
+		"description": "имя родительского класса объекта",
+		"static": true
+	},
+	"class": {
+		"name": "class",
+		"description": "класс объекта",
+		"static": true
+	},
+	"class_alias": {
+		"name": "class_alias",
+		"description": "создание псевдонима класса",
+		"static": true
+	},
+	"class_by_name": {
+		"name": "class_by_name",
+		"description": "получение класса по имени",
+		"static": true
+	},
+	"classes": {
+		"name": "classes",
+		"description": "список классов",
+		"static": true
+	},
+	"copy": {
+		"name": "copy",
+		"description": "копирование объекта",
+		"static": true
+	},
+	"create": {
+		"name": "create",
+		"description": "создание объекта",
+		"static": true
+	},
+	"def": {
+		"name": "def",
+		"description": "проверка существования класса",
+		"static": true
+	},
+	"delete": {
+		"name": "delete",
+		"description": "удаление поля объекта",
+		"static": true
+	},
+	"dynamical": {
+		"name": "dynamical",
+		"description": "тип вызова метода",
+		"static": true
+	},
+	"field": {
+		"name": "field",
+		"description": "получение значения поля объекта",
+		"static": true
+	},
+	"fields": {
+		"name": "fields",
+		"description": "список полей объекта",
+		"static": true
+	},
+	"fields_reference": {
+		"name": "fields_reference",
+		"description": "ссылка на поля объекта",
+		"static": true
+	},
+	"filename": {
+		"name": "filename",
+		"description": "получение имени файла",
+		"static": true
+	},
+	"is": {
+		"name": "is",
+		"description": "проверка типа",
+		"static": true
+	},
+	"method": {
+		"name": "method",
+		"description": "получение метода объекта",
+		"static": true
+	},
+	"method_info": {
+		"name": "method_info",
+		"description": "информация о методе",
+		"static": true
+	},
+	"methods": {
+		"name": "methods",
+		"description": "список методов класса",
+		"static": true
+	},
+	"mixin": {
+		"name": "mixin",
+		"description": "дополнение типа",
+		"static": true
+	},
+	"stack": {
+		"name": "stack",
+		"description": "стек вызовов методов",
+		"static": true
+	},
+	"tainting": {
+		"name": "tainting",
+		"description": "преобразования строки",
+		"static": true
+	},
+	"uid": {
+		"name": "uid",
+		"description": "уникальный идентификатор объекта",
+		"static": true
+	}
+}

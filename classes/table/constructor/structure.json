@@ -1,0 +1,18 @@
+{
+	"create": {
+		"name": "create",
+		"description": "создание объекта на основе заданной таблицы"
+	},
+	"create-copy": {
+		"name": "create",
+		"description": "копирование существующей таблицы"
+	},
+	"load": {
+		"name": "load",
+		"description": "загрузка таблицы с диска или HTTP-сервера"
+	},
+	"sql": {
+		"name": "sql",
+		"description": "выборка таблицы из базы данных"
+	}
+}

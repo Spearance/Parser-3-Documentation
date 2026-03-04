@@ -1,0 +1,30 @@
+{
+	"cleanup": {
+		"name": "cleanup",
+		"description": "удаление устаревших записей"
+	},
+	"clear": {
+		"name": "clear",
+		"description": "удаление всего содержимого"
+	},
+	"delete": {
+		"name": "delete",
+		"description": "удаление пары «ключ / значение»"
+	},
+	"delete-file": {
+		"name": "delete",
+		"description": "удаление файлов данных с диска"
+	},
+	"foreach": {
+		"name": "foreach",
+		"description": "перебор ключей хеша"
+	},
+	"hash": {
+		"name": "hash",
+		"description": "получение обычного хеша"
+	},
+	"release": {
+		"name": "release",
+		"description": "сохранение изменений и снятие блокировок"
+	}
+}

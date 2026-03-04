@@ -1,0 +1,4 @@
+{
+	"name": "memcached",
+	"description": "Предназначается для работы с серверами [memcached](http://memcached.org) и использует библиотеку [libmemcached](http://libmemcached.org)."
+}

@@ -1,0 +1,27 @@
+{
+	"http-headers": {
+		"name": "заголовки",
+		"description": "HTTP-ответа",
+		"static": true
+	},
+	"body": {
+		"name": "body",
+		"description": "задание нового тела ответа",
+		"static": true
+	},
+	"charset": {
+		"name": "charset",
+		"description": "задание кодировки ответа",
+		"static": true
+	},
+	"download": {
+		"name": "download",
+		"description": "задание нового тела ответа",
+		"static": true
+	},
+	"headers": {
+		"name": "headers",
+		"description": "заданные заголовки HTTP-ответа",
+		"static": true
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"send": {
+		"name": "send",
+		"description": "отправка сообщения по электронной почте",
+		"static": true
+	},
+	"received": {
+		"name": "received",
+		"description": "прием сообщения по электронной почте",
+		"static": true
+	}
+}

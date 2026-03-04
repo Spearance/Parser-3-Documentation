@@ -58,4 +58,4 @@ $filespec[/p2.gif]
 ```
 
 Выведет:
-![Paresr 3](./../../../assets/logo.png)
+![Paresr 3](/f/i/p2.gif)

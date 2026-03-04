@@ -1,0 +1,71 @@
+{
+	"at": {
+		"name": "at, _at",
+		"description": "доступ к элементу хеша по индексу"
+	},
+	"contains": {
+		"name": "contains",
+		"description": "проверка существования ключа"
+	},
+	"count": {
+		"name": "count, _count",
+		"description": "количество ключей хеша"
+	},
+	"delete": {
+		"name": "delete",
+		"description": "удаление пары «ключ / значение»"
+	},
+	"foreach": {
+		"name": "foreach",
+		"description": "перебор элементов хеша"
+	},
+	"keys": {
+		"name": "keys",
+		"description": "список ключей хеша"
+	},
+	"rename": {
+		"name": "rename",
+		"description": "переименовывание ключей хеша"
+	},
+	"reverse": {
+		"name": "reverse",
+		"description": "обратный порядок элементов"
+	},
+	"select": {
+		"name": "select",
+		"description": "отбор элементов"
+	},
+	"set": {
+		"name": "set",
+		"description": "установка значения по индексу"
+	},
+	"sort": {
+		"name": "sort",
+		"description": "cортировка хеша"
+	},
+	"add": {
+		"name": "add",
+		"description": "cложение хешей",
+		"tag": "Работа со множествами"
+	},
+	"intersection": {
+		"name": "intersection",
+		"description": "пересечение хешей",
+		"tag": "Работа со множествами"
+	},
+	"intersects": {
+		"name": "intersects",
+		"description": "определение наличия пересечения хешей",
+		"tag": "Работа со множествами"
+	},
+	"sub": {
+		"name": "sub",
+		"description": "вычитание хешей",
+		"tag": "Работа со множествами"
+	},
+	"union": {
+		"name": "union",
+		"description": "вычитание хешей",
+		"tag": "Работа со множествами"
+	}
+}

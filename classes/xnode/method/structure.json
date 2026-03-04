@@ -1,0 +1,26 @@
+{
+	"dom": {
+		"name": "DOM",
+		"description": ""
+	},
+	"select": {
+		"name": "select",
+		"description": "XPath-поиск узлов"
+	},
+	"select-single": {
+		"name": "selectSingle",
+		"description": "XPath-поиск одного узла"
+	},
+	"select-string": {
+		"name": "selectString",
+		"description": "вычисление строчного XPath-запроса"
+	},
+	"select-number": {
+		"name": "selectNumber",
+		"description": "вычисление числового XPath-запроса"
+	},
+	"select-bool": {
+		"name": "selectBool",
+		"description": "вычисление логического XPath-запроса"
+	}
+}

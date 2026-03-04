@@ -1,0 +1,22 @@
+{
+	"add": {
+		"name": "add",
+		"description": "добавление записи"
+	},
+	"clear": {
+		"name": "clear",
+		"description": "удаление всех данных с сервера"
+	},
+	"delete": {
+		"name": "delete",
+		"description": "удаление записи"
+	},
+	"mget": {
+		"name": "mget",
+		"description": "получение множества значений"
+	},
+	"release": {
+		"name": "release",
+		"description": "закрытие соединения с сервером"
+	}
+}

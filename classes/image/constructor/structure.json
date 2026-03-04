@@ -1,0 +1,14 @@
+{
+	"create": {
+		"name": "create",
+		"description": "создание объекта с заданными размерами"
+	},
+	"load": {
+		"name": "load",
+		"description": "создание объекта на основе GIF-файла"
+	},
+	"measure": {
+		"name": "measure",
+		"description": "создание объекта на основе графического файла"
+	}
+}

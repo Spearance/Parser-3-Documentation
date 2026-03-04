@@ -1,0 +1,4 @@
+{
+	"name": "regex",
+	"description": "Предназначен для работы с регулярными выражениями, совместимыми с PCRE (Perl Compatible Regular Expressions)."
+}

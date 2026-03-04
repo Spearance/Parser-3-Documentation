@@ -1,0 +1,14 @@
+{
+	"create": {
+		"name": "create",
+		"description": "создание документа на основе заданного XML"
+	},
+	"create-empty": {
+		"name": "create",
+		"description": "создание нового пустого документа"
+	},
+	"create-file": {
+		"name": "create",
+		"description": "создание документа на основе файла"
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"pathes": {
+		"name": "Приложение 1",
+		"description": "пути к файлам и каталогам, работа с HTTP-серверами"
+	},
+	"format-string": {
+		"name": "Приложение 2",
+		"description": "форматные строки преобразования числа в строку"
+	},
+	"connect": {
+		"name": "Приложение 3",
+		"description": "формат строки подключения оператора connect"
+	},
+	"pcre": {
+		"name": "Приложение 4",
+		"description": "Perl-совместимые регулярные выражения"
+	},
+	"naming": {
+		"name": "Приложение 5",
+		"description": "как правильно назначить имя переменной, функции, классу"
+	},
+	"codereview": {
+		"name": "Приложение 6",
+		"description": "как бороться с ошибками и разбираться в чужом коде"
+	},
+	"in-out": {
+		"name": "Приложение 7",
+		"description": "SQL-серверы, работа с IN/OUT-переменными"
+	},
+	"title-0": {
+		"name": "Подключения к базам данных"
+	},
+	"mysql": {
+		"name": "MySql"
+	},
+	"sqlite": {
+		"name": "SQLite"
+	},
+	"odbc": {
+		"name": "ODBC"
+	},
+	"postgresql": {
+		"name": "PostgreSQL"
+	},
+	"oracle": {
+		"name": "Oracle"
+	},
+	"title-1": {
+		"name": "Прочее"
+	},
+	"class-path": {
+		"name": "CLASS_PATH",
+		"description": "переменная"
+	},
+	"client-charset": {
+		"name": "ClientCharset",
+		"description": "параметр подключения — кодировка общения с SQL-сервером"
+	}
+}

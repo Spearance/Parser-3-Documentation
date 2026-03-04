@@ -1,0 +1,82 @@
+{
+	"append": {
+		"name": "append",
+		"description": "добавление строки в таблицу"
+	},
+	"array": {
+		"name": "array",
+		"description": "преобразование таблицы в массив"
+	},
+	"cells": {
+		"name": "cells",
+		"description": "получение значений столбцов текущей строки таблицы"
+	},
+	"columns": {
+		"name": "columns",
+		"description": "получение структуры таблицы"
+	},
+	"count": {
+		"name": "count",
+		"description": "количество строк в таблице"
+	},
+	"csv-string": {
+		"name": "csv-string",
+		"description": "преобразование в строку в формате CSV"
+	},
+	"delete": {
+		"name": "delete",
+		"description": "удаление текущей строки"
+	},
+	"flip": {
+		"name": "flip",
+		"description": "транспонирование таблицы"
+	},
+	"foreach": {
+		"name": "foreach",
+		"description": "последовательный перебор всех строк таблицы"
+	},
+	"hash": {
+		"name": "hash",
+		"description": "преобразование таблицы в хеш с заданными ключами"
+	},
+	"insert": {
+		"name": "insert",
+		"description": "вставка строки в таблицу"
+	},
+	"join": {
+		"name": "join",
+		"description": "объединение двух таблиц"
+	},
+	"locate": {
+		"name": "locate",
+		"description": "поиск в таблице"
+	},
+	"menu": {
+		"name": "menu",
+		"description": "последовательный перебор всех строк таблицы"
+	},
+	"offset-line": {
+		"name": "offset, line",
+		"description": "получение смещения указателя текущей строки"
+	},
+	"offset": {
+		"name": "offset",
+		"description": "смещение указателя текущей строки"
+	},
+	"rename": {
+		"name": "rename",
+		"description": "изменение названия столбца"
+	},
+	"save": {
+		"name": "save",
+		"description": "сохранение таблицы в файл"
+	},
+	"select": {
+		"name": "select",
+		"description": "отбор записей"
+	},
+	"sort": {
+		"name": "sort",
+		"description": "сортировка данных таблицы"
+	}
+}

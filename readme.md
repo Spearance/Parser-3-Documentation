@@ -1,5 +1,9 @@
 # Документация Parser 3.5.0
 
+![Parser 3](/assets/parser.png)
+
+![Птиц](/assets/bird.png)
+
 ## Содержание документации
 
 ### Классы
@@ -17,6 +21,8 @@
     - [contains — проверка существования элемента по индексу](./classes/array/method/contains.md)
     - [count — количество элементов массива](./classes/array/method/count.md)
     - [delete — удаление элемента массива](./classes/array/method/delete.md)
+    - [for — перебор всех элементов массива](./classes/array/method/for.md)
+    - [foreach — перебор элементов массива](./classes/array/method/foreach.md)
     - [insert — вставка элементов в указанную позицию массива](./classes/array/method/insert.md)
     - [join — добавление элементов другого массива или хеша](./classes/array/method/join.md)
     - [keys — список индексов массива](./classes/array/method/keys.md)
@@ -37,17 +43,17 @@
 - console
   - [Информация о классе](./classes/console/common.md)
   - Статические поля
-    - [чтение — строки консоли](./classes/console/field/read.md)
-    - [запись — строки консоли](./classes/console/field/write.md)
+    - [чтение — строки](./classes/console/field/read.md)
+    - [запись — строки](./classes/console/field/write.md)
 - cookie
   - [Информация о классе](./classes/cookie/common.md)
-  - Статические поля
+  - Поля
     - [чтение — значения существующего cookie](./classes/cookie/field/read.md)
     - [запись — нового или перезапись значения cookie](./classes/cookie/field/write.md)
     - [fields — получить все cookie в виде хеша](./classes/cookie/field/fields.md)
 - curl
   - [Информация о классе](./classes/curl/common.md)
-  - Статические методы
+  - Методы
     - [info — информация о последнем запросе](./classes/curl/method/info.md)
     - [load — загрузка файла с удаленного сервера](./classes/curl/method/load.md)
     - [options — задание опций для сессии](./classes/curl/method/options.md)
@@ -136,32 +142,403 @@
     - [imap — получение координат нажатия в ISMAP](./classes/form/field/imap.md)
     - [qtail — получение остатка строки запроса](./classes/form/field/qtail.md)
     - [tables — получение множества значений поля](./classes/form/field/tables.md)
+- hash
+  - [Информация о классе](./classes/hash/common.md)
+  - Конструкторы
+    - [create — создание пустого хеша и копирование хеша](./classes/hash/constructor/create.md)
+    - [sql — создание хеша на основе выборки из базы данных](./classes/hash/constructor/sql.md)
+  - Методы
+    - [at, _at — доступ к элементу хеша по индексу](./classes/hash/method/at.md)
+    - [contains — проверка существования ключа](./classes/hash/method/contains.md)
+    - [count, _count — количество ключей хеша](./classes/hash/method/count.md)
+    - [delete — удаление пары «ключ / значение»](./classes/hash/method/delete.md)
+    - [foreach — перебор элементов хеша](./classes/hash/method/foreach.md)
+    - [keys — список ключей хеша](./classes/hash/method/keys.md)
+    - [rename — переименовывание ключей хеша](./classes/hash/method/rename.md)
+    - [reverse — обратный порядок элементов](./classes/hash/method/reverse.md)
+    - [select — отбор элементов](./classes/hash/method/select.md)
+    - [set — установка значения по индексу](./classes/hash/method/set.md)
+    - [sort — cортировка хеша](./classes/hash/method/sort.md)
+    - [add — cложение хешей](./classes/hash/method/add.md)
+    - [intersection — пересечение хешей](./classes/hash/method/intersection.md)
+    - [intersects — определение наличия пересечения хешей](./classes/hash/method/intersects.md)
+    - [sub — вычитание хешей](./classes/hash/method/sub.md)
+    - [union — вычитание хешей](./classes/hash/method/union.md)
+  - Поля
+    - [поля — объекта класса](./classes/hash/field/field.md)
+    - [использование хеша — вместо таблицы](./classes/hash/field/hash-table.md)
+- hashfile
+  - [Информация о классе](./classes/hashfile/common.md)
+  - Конструкторы
+    - [open — открытие или создание](./classes/hashfile/constructor/open.md)
+  - Методы
+    - [cleanup — удаление устаревших записей](./classes/hashfile/method/cleanup.md)
+    - [clear — удаление всего содержимого](./classes/hashfile/method/clear.md)
+    - [delete — удаление пары «ключ / значение»](./classes/hashfile/method/delete.md)
+    - [delete — удаление файлов данных с диска](./classes/hashfile/method/delete-file.md)
+    - [foreach — перебор ключей хеша](./classes/hashfile/method/foreach.md)
+    - [hash — получение обычного хеша](./classes/hashfile/method/hash.md)
+    - [release — сохранение изменений и снятие блокировок](./classes/hashfile/method/release.md)
+  - Поля
+    - [чтение — ](./classes/hashfile/field/read.md)
+    - [запись — ](./classes/hashfile/field/write.md)
+- image
+  - [Информация о классе](./classes/image/common.md)
+  - Конструкторы
+    - [create — создание объекта с заданными размерами](./classes/image/constructor/create.md)
+    - [load — создание объекта на основе GIF-файла](./classes/image/constructor/load.md)
+    - [measure — создание объекта на основе графического файла](./classes/image/constructor/measure.md)
+  - Методы
+    - [gif — кодирование объектов класса image в формат GIF](./classes/image/method/gif.md)
+    - [html — вывод изображения](./classes/image/method/html.md)
+    - [Методы рисования — ](./classes/image/method/title-0.md)
+    - [line-style, line-width — тип и ширина линий](./classes/image/method/line-style-width.md)
+    - [arc — рисование дуги](./classes/image/method/arc.md)
+    - [bar — рисование закрашенных прямоугольников](./classes/image/method/bar.md)
+    - [circle — рисование неокрашенной окружности](./classes/image/method/circle.md)
+    - [copy — копирование фрагментов изображений](./classes/image/method/copy.md)
+    - [fill — закрашивание одноцветной области изображения](./classes/image/method/fill.md)
+    - [font — загрузка файла шрифта](./classes/image/method/font.md)
+    - [length — получение длины надписи в пикселях](./classes/image/method/length.md)
+    - [line — рисование линии на изображении](./classes/image/method/line.md)
+    - [pixel — работа с точками изображения](./classes/image/method/pixel.md)
+    - [polybar — рисование окрашенных многоугольников](./classes/image/method/polybar.md)
+    - [polygon — рисование неокрашенных многоугольников](./classes/image/method/polygon.md)
+    - [polyline — рисование ломаных линий](./classes/image/method/polyline.md)
+    - [rectangle — рисование незакрашенных прямоугольников](./classes/image/method/rectangle.md)
+    - [replace — замена цвета в области](./classes/image/method/replace.md)
+    - [sector — рисование сектора](./classes/image/method/sector.md)
+    - [text — нанесение надписей на изображение](./classes/image/method/text.md)
+  - Поля
+    - [поля объекта класса](./classes/image/field/common.md)
+- inet
+  - [Информация о классе](./classes/inet/common.md)
+  - Статические методы
+    - [aton — преобразование строки с IP-адресом в число](./classes/inet/method/aton.md)
+    - [hostname — имя хоста](./classes/inet/method/hostname.md)
+    - [ip2name — определение домена по IP-адресу](./classes/inet/method/ip2name.md)
+    - [name2ip — определение IP-адреса домена](./classes/inet/method/name2ip.md)
+    - [ntoa — преобразование числа в строку с IP-адресом](./classes/inet/method/ntoa.md)
+- json
+  - [Информация о классе](./classes/json/common.md)
+  - Статические методы
+    - [parse — преобразование JSON-строки в хеш](./classes/json/method/parse.md)
+    - [string — преобразование объекта Parser в JSON-строку](./classes/json/method/string.md)
+- junction
+  - [Информация о классе](./classes/junction/common.md)
+- mail
+  - [Информация о классе](./classes/mail/common.md)
+  - Статические методы
+    - [send — отправка сообщения по электронной почте](./classes/mail/method/send.md)
+    - [received — прием сообщения по электронной почте](./classes/mail/method/received.md)
 - main
+  - [Информация о классе](./classes/main/common.md)
+- math
+  - [Информация о классе](./classes/math/common.md)
+  - Статические методы
+    - [abs, sign — операции со знаком](./classes/math/method/abs-sign.md)
+    - [convert — конвертирование систем счисления](./classes/math/method/convert.md)
+    - [crc32 — подсчет контрольной суммы строки](./classes/math/method/crc32.md)
+    - [crypt — хеширование паролей](./classes/math/method/crypt.md)
+    - [degrees, radians — преобразования градусы ↔︎ радианы](./classes/math/method/degrees-radians.md)
+    - [digest — криптографическое хеширование](./classes/math/method/digest.md)
+    - [exp, log, log10 — логарифмические функции](./classes/math/method/exp-log-log10.md)
+    - [md5 — MD5-отпечаток строки](./classes/math/method/md5.md)
+    - [pow — возведение числа в степень](./classes/math/method/pow.md)
+    - [random — случайное число](./classes/math/method/random.md)
+    - [round, floor, ceiling — округления](./classes/math/method/round-floor-ceiling.md)
+    - [sha1 — хеш строки по алгоритму SHA1](./classes/math/method/sha1.md)
+    - [sin, asin, cos, acos, tan, atan, atan2 — тригонометрические функции](./classes/math/method/sin-asin-cos-acos-tan-atan-atan2.md)
+    - [sqrt — квадратный корень числа](./classes/math/method/sqrt.md)
+    - [trunc, frac — операции с целой/дробной частью числа](./classes/math/method/trunc-frac.md)
+    - [uid64 — 64-битный уникальный идентификатор](./classes/math/method/uid64.md)
+    - [uuid — универсальный уникальный идентификатор версии 4](./classes/math/method/uuid.md)
+    - [uuid7 — универсальный уникальный идентификатор версии 7](./classes/math/method/uuid7.md)
+  - Статические поля
+    - [PI, E — значения чисел](./classes/math/field/pi-e.md)
+- memcached
+  - [Информация о классе](./classes/memcached/common.md)
+  - Конструкторы
+    - [open — открытие](./classes/memcached/constructor/open.md)
+  - Методы
+    - [add — добавление записи](./classes/memcached/method/add.md)
+    - [clear — удаление всех данных с сервера](./classes/memcached/method/clear.md)
+    - [delete — удаление записи](./classes/memcached/method/delete.md)
+    - [mget — получение множества значений](./classes/memcached/method/mget.md)
+    - [release — закрытие соединения с сервером](./classes/memcached/method/release.md)
+  - Поля
+    - [чтение — ](./classes/memcached/field/read.md)
+    - [звпись — ](./classes/memcached/field/write.md)
+- memory
+  - Статические методы
+    - [auto-compact — автоматическая сборка мусора](./classes/memory/method/auto-compact.md)
+    - [compact — сборка мусора](./classes/memory/method/compact.md)
+- reflection
+  - Статические методы
+    - [base — родительский класс объекта](./classes/reflection/method/base.md)
+    - [base_name — имя родительского класса объекта](./classes/reflection/method/base_name.md)
+    - [class — класс объекта](./classes/reflection/method/class.md)
+    - [class_alias — создание псевдонима класса](./classes/reflection/method/class_alias.md)
+    - [class_by_name — получение класса по имени](./classes/reflection/method/class_by_name.md)
+    - [classes — список классов](./classes/reflection/method/classes.md)
+    - [copy — копирование объекта](./classes/reflection/method/copy.md)
+    - [create — создание объекта](./classes/reflection/method/create.md)
+    - [def — проверка существования класса](./classes/reflection/method/def.md)
+    - [delete — удаление поля объекта](./classes/reflection/method/delete.md)
+    - [dynamical — тип вызова метода](./classes/reflection/method/dynamical.md)
+    - [field — получение значения поля объекта](./classes/reflection/method/field.md)
+    - [fields — список полей объекта](./classes/reflection/method/fields.md)
+    - [fields_reference — ссылка на поля объекта](./classes/reflection/method/fields_reference.md)
+    - [filename — получение имени файла](./classes/reflection/method/filename.md)
+    - [is — проверка типа](./classes/reflection/method/is.md)
+    - [method — получение метода объекта](./classes/reflection/method/method.md)
+    - [method_info — информация о методе](./classes/reflection/method/method_info.md)
+    - [methods — список методов класса](./classes/reflection/method/methods.md)
+    - [mixin — дополнение типа](./classes/reflection/method/mixin.md)
+    - [stack — стек вызовов методов](./classes/reflection/method/stack.md)
+    - [tainting — преобразования строки](./classes/reflection/method/tainting.md)
+    - [uid — уникальный идентификатор объекта](./classes/reflection/method/uid.md)
+- regex
+  - [Информация о классе](./classes/regex/common.md)
+  - Конструкторы
+    - [create — создание нового объекта ](./classes/regex/constructor/create.md)
+  - Поля
+    - [поля объекта класса](./classes/regex/field/common.md)
+- request
+  - [Информация о классе](./classes/request/common.md)
+  - Статические поля
+    - [argv — аргументы командной строки](./classes/request/field/argv.md)
+    - [body — получение текста запроса](./classes/request/field/body.md)
+    - [body-charset, post-charset — получение кодировки пришедшего POST-запроса](./classes/request/field/body-charset_post-charset.md)
+    - [body-file, post-body — тело содержимого запроса](./classes/request/field/body-file_post-body.md)
+    - [charset — задание кодировки документов на сервере](./classes/request/field/charset.md)
+    - [document-root — корень веб-пространства](./classes/request/field/document-root.md)
+    - [method — получение метода HTTP-запроса](./classes/request/field/method.md)
+    - [path — получение пути запроса](./classes/request/field/path.md)
+    - [query — получение параметров строки запроса](./classes/request/field/query.md)
+    - [uri — получение URI запроса](./classes/request/field/uri.md)
+- response
+  - Статические методы
+    - [clear — отмена задания новых заголовков HTTP-ответа](./classes/response/method/clear.md)
+  - Статические поля
+    - [заголовки — HTTP-ответа](./classes/response/field/http-headers.md)
+    - [body — задание нового тела ответа](./classes/response/field/body.md)
+    - [charset — задание кодировки ответа](./classes/response/field/charset.md)
+    - [download — задание нового тела ответа](./classes/response/field/download.md)
+    - [headers — заданные заголовки HTTP-ответа](./classes/response/field/headers.md)
+- status
+  - [Информация о классе](./classes/status/common.md)
+  - Поля
+    - [memory — информация о памяти под контролем сборщика мусора](./classes/status/field/memory.md)
+    - [log-filename — путь к журналу ошибок](./classes/status/field/log-filename.md)
+    - [mode — режим работы](./classes/status/field/mode.md)
+    - [pid — идентификатор процесса](./classes/status/field/pid.md)
+    - [rusage — информация о затраченных ресурсах](./classes/status/field/rusage.md)
+    - [tid — идентификатор потока](./classes/status/field/tid.md)
+- string
+  - [Информация о классе](./classes/string/common.md)
+  - Методы
+    - [base64 — кодирование в Base64](./classes/string/method/base64-encode.md)
+    - [format — вывод числа в заданном формате](./classes/string/method/format.md)
+    - [int, double, bool — преобразование строки в число или bool](./classes/string/method/int-double-bool.md)
+    - [idna — кодирование в IDNA](./classes/string/method/idna-encode.md)
+    - [js-escape — кодирование, аналогичное функции escape в JavaScript](./classes/string/method/js-escape.md)
+    - [left, right — подстрока слева и справа](./classes/string/method/left-right.md)
+    - [length — длина строки](./classes/string/method/length.md)
+    - [match — поиск подстроки по шаблону](./classes/string/method/match.md)
+    - [match — замена подстроки, соответствующей шаблону](./classes/string/method/match-replace.md)
+    - [mid — подстрока с заданной позиции](./classes/string/method/mid.md)
+    - [pos — получение позиции подстроки](./classes/string/method/pos.md)
+    - [replace — замена подстрок в строке](./classes/string/method/replace.md)
+    - [save — сохранение строки в файл](./classes/string/method/save.md)
+    - [split — Разбиение строки](./classes/string/method/split.md)
+    - [trim — отсечение букв с концов строки](./classes/string/method/trim.md)
+    - [upper, lower — преобразование регистра строки](./classes/string/method/upper-lower.md)
+  - Статические методы
+    - [base64 — декодирование из Base64](./classes/string/method/base64.md)
+    - [idna — декодирование из IDNA](./classes/string/method/idna.md)
+    - [js-unescape — декодирование, аналогичное unescape в JavaScript](./classes/string/method/js-unescape.md)
+    - [sql — получение строки из базы данных](./classes/string/method/sql.md)
+    - [unescape — декодирование JavaScript- или URI-кодирования](./classes/string/method/unescape.md)
+- table
+  - [Информация о классе](./classes/table/common.md)
+  - Конструкторы
+    - [create — создание объекта на основе заданной таблицы](./classes/table/constructor/create.md)
+    - [create — копирование существующей таблицы](./classes/table/constructor/create-copy.md)
+    - [load — загрузка таблицы с диска или HTTP-сервера](./classes/table/constructor/load.md)
+    - [sql — выборка таблицы из базы данных](./classes/table/constructor/sql.md)
+  - Методы
+    - [append — добавление строки в таблицу](./classes/table/method/append.md)
+    - [array — преобразование таблицы в массив](./classes/table/method/array.md)
+    - [cells — получение значений столбцов текущей строки таблицы](./classes/table/method/cells.md)
+    - [columns — получение структуры таблицы](./classes/table/method/columns.md)
+    - [count — количество строк в таблице](./classes/table/method/count.md)
+    - [csv-string — преобразование в строку в формате CSV](./classes/table/method/csv-string.md)
+    - [delete — удаление текущей строки](./classes/table/method/delete.md)
+    - [flip — транспонирование таблицы](./classes/table/method/flip.md)
+    - [foreach — последовательный перебор всех строк таблицы](./classes/table/method/foreach.md)
+    - [hash — преобразование таблицы в хеш с заданными ключами](./classes/table/method/hash.md)
+    - [insert — вставка строки в таблицу](./classes/table/method/insert.md)
+    - [join — объединение двух таблиц](./classes/table/method/join.md)
+    - [locate — поиск в таблице](./classes/table/method/locate.md)
+    - [menu — последовательный перебор всех строк таблицы](./classes/table/method/menu.md)
+    - [offset, line — получение смещения указателя текущей строки](./classes/table/method/offset-line.md)
+    - [offset — смещение указателя текущей строки](./classes/table/method/offset.md)
+    - [rename — изменение названия столбца](./classes/table/method/rename.md)
+    - [save — сохранение таблицы в файл](./classes/table/method/save.md)
+    - [select — отбор записей](./classes/table/method/select.md)
+    - [sort — сортировка данных таблицы](./classes/table/method/sort.md)
+- void
+  - [Информация о классе](./classes/void/common.md)
+  - Статические методы
+    - [sql — запрос к БД, не возвращающий результата](./classes/void/method/sql.md)
+- xdoc
+  - [Информация о классе](./classes/xdoc/common.md)
+  - Конструкторы
+    - [create — создание документа на основе заданного XML](./classes/xdoc/constructor/create.md)
+    - [create — создание нового пустого документа](./classes/xdoc/constructor/create-empty.md)
+    - [create — создание документа на основе файла](./classes/xdoc/constructor/create-file.md)
+  - Методы
+    - [DOM — интерфейсы Document моделей](./classes/xdoc/method/dom.md)
+    - [load — загрузка XML с диска, HTTP-сервера или иного источника](./classes/xdoc/method/load.md)
+    - [file — преобразование документа в объект класса file](./classes/xdoc/method/file.md)
+    - [save — сохранение документа в файл](./classes/xdoc/method/save.md)
+    - [string — преобразование документа в строку](./classes/xdoc/method/string.md)
+    - [transform — XSL-преобразование](./classes/xdoc/method/transform.md)
+  - Поля
+    - [DOM — ](./classes/xdoc/field/dom.md)
+    - [search-namespaces — хеш пространств имен для поиска](./classes/xdoc/field/search-namespaces.md)
+- xnode
+  - [Информация о классе](./classes/xnode/common.md)
+  - Методы
+    - [DOM — ](./classes/xnode/method/dom.md)
+    - [select — XPath-поиск узлов](./classes/xnode/method/select.md)
+    - [selectSingle — XPath-поиск одного узла](./classes/xnode/method/select-single.md)
+    - [selectString — вычисление строчного XPath-запроса](./classes/xnode/method/select-string.md)
+    - [selectNumber — вычисление числового XPath-запроса](./classes/xnode/method/select-number.md)
+    - [selectBool — вычисление логического XPath-запроса](./classes/xnode/method/select-bool.md)
+  - Поля
+    - [DOM — ](./classes/xnode/field/dom.md)
+### Сущности языка
+- Конструкции
+  - [Переменные — ](./common/constructions/common/variables.md)
+  - [Хеш — ассоциативный массив](./common/constructions/common/hash.md)
+  - [Массив — упорядоченная структура данных](./common/constructions/common/array.md)
+  - [Объект класса — или экземпляр класса](./common/constructions/common/object.md)
+  - [Поля и методы — статические](./common/constructions/common/static.md)
+  - [Классы — определяемые пользователем](./common/constructions/common/class.md)
+  - [Методы и операторы — определяемые пользователем](./common/constructions/common/method.md)
+  - [Передача параметров — ](./common/constructions/common/parameters.md)
+  - [Свойства — ](./common/constructions/common/properties.md)
+- Литералы
+  - [Строковые — ](./common/literals/common/string.md)
+  - [Числовые — ](./common/literals/common/number.md)
+  - [Логические — ](./common/literals/common/boolean.md)
+  - [В выражениях — ](./common/literals/common/expression.md)
+- Операторы
+  - [def — проверка определенности объекта](./common/operators/common/def.md)
+  - [in — проверка наличия документа в каталоге](./common/operators/common/in.md)
+  - [is — проверка типа](./common/operators/common/is.md)
+  - [-f и -d — проверка существования файла и каталога](./common/operators/common/f-d.md)
+  - [Операторы в выражениях и их приоритеты — ](./common/operators/common/operators-and-priority.md)
+  - [Вычисления — ](./common/operators/common/title-0.md)
+  - [eval — вычисление математических выражений](./common/operators/common/eval.md)
+  - [Операторы ветвления — ](./common/operators/common/title-1.md)
+  - [if — выбор одного варианта из двух](./common/operators/common/if.md)
+  - [switch — выбор одного варианта из нескольких](./common/operators/common/switch.md)
+  - [Комментарии к частям выражения — ](./common/operators/common/comment.md)
+  - [Циклы — ](./common/operators/common/title-2.md)
+  - [for — цикл с заданным числом повторов](./common/operators/common/for.md)
+  - [while — цикл с условием](./common/operators/common/while.md)
+  - [break — выход из цикла](./common/operators/common/break.md)
+  - [continue — переход к следующей итерации цикла](./common/operators/common/continue.md)
+  - [Внешние и внутренние данные — ](./common/operators/common/title-4.md)
+  - [Общая теория — ](./common/operators/common/data.md)
+  - [taint — задание преобразований данных](./common/operators/common/taint.md)
+  - [untaint — задание преобразований данных](./common/operators/common/untaint.md)
+  - [apply-taint — применение преобразований данных](./common/operators/common/apply-taint.md)
+  - [Обработка ошибок — ](./common/operators/common/title-5.md)
+  - [Общая теория — ](./common/operators/common/handle-errors.md)
+  - [try — перехват и обработка ошибок](./common/operators/common/try.md)
+  - [throw — сообщение об ошибке](./common/operators/common/throw.md)
+  - [@unhandled_exception — вывод необработанных ошибок](./common/operators/common/unhandled-exception.md)
+  - [Системные ошибки — ](./common/operators/common/system-errors.md)
+  - [Прочие операторы — ](./common/operators/common/title-3.md)
+  - [cache — сохранение результатов работы кода](./common/operators/common/cache.md)
+  - [connect — подключение к базе данных](./common/operators/common/connect.md)
+  - [process — компиляция и исполнение строки](./common/operators/common/process.md)
+  - [rem — вставка комментария](./common/operators/common/rem.md)
+  - [return — возврат из метода](./common/operators/common/return.md)
+  - [sleep — задержка выполнения программы](./common/operators/common/sleep.md)
+  - [use — подключение модулей](./common/operators/common/use.md)
+  - [Операторы, определяемые пользователем — ](./common/operators/common/user-operators.md)
+### Дополнительно
+- Настройка языка
+  - [Конфигурационный файл — ](./addition/install/common/config-file.md)
+  - [Конфигурационный метод — ](./addition/install/common/config-method.md)
+  - [Описание формата файла, описывающего кодировку — ](./addition/install/common/charset-format.md)
+  - [Кодировки — ](./addition/install/common/charsets.md)
+  - [Установка — ](./addition/install/common/title-0.md)
+  - [Установка и настройка Parser 3 — ](./addition/install/common/install.md)
+  - [На веб-сервер как CGI — ](./addition/install/common/install-cgi.md)
+  - [На веб-сервер Apache как модуля сервера — ](./addition/install/common/install-apache.md)
+  - [На веб-сервер IIS 8.0 или новее — ](./addition/install/common/install-iis.md)
+  - [Использование Parser — ](./addition/install/common/title-1.md)
+  - [В качестве веб-сервера — ](./addition/install/common/server-like-used.md)
+  - [В качестве интерпретатора скриптов — ](./addition/install/common/interpreter-like-used.md)
+  - [В качестве обработчика сообщений электронной почты — ](./addition/install/common/mail-handler-used.md)
+  - [Исходные коды — ](./addition/install/common/title-2.md)
+  - [Получение исходных кодов  — ](./addition/install/common/sourcecode.md)
+  - [Сборка — ](./addition/install/common/title-3.md)
+  - [Сборка под Linux и другие Unix-подобные системы — ](./addition/install/common/building-linux.md)
+  - [Сборка под Windows — ](./addition/install/common/building-windows.md)
+- Приложения
+  - [Приложение 1 — пути к файлам и каталогам, работа с HTTP-серверами](./addition/parts/common/pathes.md)
+  - [Приложение 2 — форматные строки преобразования числа в строку](./addition/parts/common/format-string.md)
+  - [Приложение 3 — формат строки подключения оператора connect](./addition/parts/common/connect.md)
+  - [Приложение 4 — Perl-совместимые регулярные выражения](./addition/parts/common/pcre.md)
+  - [Приложение 5 — как правильно назначить имя переменной, функции, классу](./addition/parts/common/naming.md)
+  - [Приложение 6 — как бороться с ошибками и разбираться в чужом коде](./addition/parts/common/codereview.md)
+  - [Приложение 7 — SQL-серверы, работа с IN/OUT-переменными](./addition/parts/common/in-out.md)
+  - [Подключения к базам данных — ](./addition/parts/common/title-0.md)
+  - [MySql — ](./addition/parts/common/mysql.md)
+  - [SQLite — ](./addition/parts/common/sqlite.md)
+  - [ODBC — ](./addition/parts/common/odbc.md)
+  - [PostgreSQL — ](./addition/parts/common/postgresql.md)
+  - [Oracle — ](./addition/parts/common/oracle.md)
+  - [Прочее — ](./addition/parts/common/title-1.md)
+  - [CLASS_PATH — переменная](./addition/parts/common/class-path.md)
+  - [ClientCharset — параметр подключения — кодировка общения с SQL-сервером](./addition/parts/common/client-charset.md)
 
+***
 
-## Авторы
-
-![](./assets/logo.png)
-
-Язык скриптования сайтов Parser 3
-
-![](./assets/ptic.png)
-
-Автор технологий Parser и Parser 3:
+### Автор технологий Parser и Parser 3
 
 - Константин Моршнев
 
-Авторы Parser 3:
+### Авторы Parser 3
 
 - Александр Петросян (PAF)
 - Михаил Петрушин (Misha v.3)
 
-Авторы документации:
+### Авторы документации
 
 - Константин Моршнев
 - Алексей Сорокин
 - Владимир Муров
 - Александр Петросян (PAF)
 
-Адаптация для markdown:
-- Евгений Лепешкин (Spearance)
+© [Студия Артемия Лебедева](https://artlebedev.ru), 1997–2025 гг.
+
+## Адаптированная документация
+
+Это неофициальная документация Parser версии 3.5.0 адоптированная для нужд учебного курса. 
+
+Официальная доументация: [parser.ru/docs/](https://www.parser.ru/docs/)
+
+### Автор адаптированной документации
+
+- Евгений Лепёшкин (Spearance)
+
+***
+Ссылка документации на [GitHub](https://github.com/Spearance/Parser-3-Documentation).

@@ -1,0 +1,18 @@
+{
+	"string": {
+		"name": "Строковые",
+		"description": ""
+	},
+	"number": {
+		"name": "Числовые",
+		"description": ""
+	},
+	"boolean": {
+		"name": "Логические",
+		"description": ""
+	},
+	"expression": {
+		"name": "В выражениях",
+		"description": ""
+	}
+}

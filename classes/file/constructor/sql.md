@@ -30,3 +30,5 @@
 Имя файла и его **content-type** будут переданы посетителю при `$response:download`.
 
 > Пока работает только с MySQL-сервером.
+
+*[SQL]: Structured Query Language

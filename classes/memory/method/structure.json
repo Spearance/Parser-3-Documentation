@@ -1,0 +1,12 @@
+{
+	"auto-compact": {
+		"name": "auto-compact",
+		"description": "автоматическая сборка мусора",
+		"static": true
+	},
+	"compact": {
+		"name": "compact",
+		"description": "сборка мусора",
+		"static": true
+	}
+}

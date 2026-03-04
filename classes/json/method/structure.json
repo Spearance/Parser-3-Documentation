@@ -1,0 +1,12 @@
+{
+	"parse": {
+		"name": "parse",
+		"description": "преобразование JSON-строки в хеш",
+		"static": true
+	},
+	"string": {
+		"name": "string",
+		"description": "преобразование объекта Parser в JSON-строку",
+		"static": true
+	}
+}

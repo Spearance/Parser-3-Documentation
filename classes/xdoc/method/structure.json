@@ -1,0 +1,26 @@
+{
+	"dom": {
+		"name": "DOM",
+		"description": "интерфейсы Document моделей"
+	},
+	"load": {
+		"name": "load",
+		"description": "загрузка XML с диска, HTTP-сервера или иного источника"
+	},
+	"file": {
+		"name": "file",
+		"description": "преобразование документа в объект класса file"
+	},
+	"save": {
+		"name": "save",
+		"description": "сохранение документа в файл"
+	},
+	"string": {
+		"name": "string",
+		"description": "преобразование документа в строку"
+	},
+	"transform": {
+		"name": "transform",
+		"description": "XSL-преобразование"
+	}
+}

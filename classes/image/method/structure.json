@@ -1,0 +1,81 @@
+{
+	"gif": {
+		"name": "gif",
+		"description": "кодирование объектов класса image в формат GIF"
+	},
+	"html": {
+		"name": "html",
+		"description": "вывод изображения"
+	},
+	"title-0": {
+		"name": "Методы рисования"
+	},
+	"line-style-width": {
+		"name": "line-style, line-width",
+		"description": "тип и ширина линий"
+	},
+	"arc": {
+		"name": "arc",
+		"description": "рисование дуги"
+	},
+	"bar": {
+		"name": "bar",
+		"description": "рисование закрашенных прямоугольников"
+	},
+	"circle": {
+		"name": "circle",
+		"description": "рисование неокрашенной окружности"
+	},
+	"copy": {
+		"name": "copy",
+		"description": "копирование фрагментов изображений"
+	},
+	"fill": {
+		"name": "fill",
+		"description": "закрашивание одноцветной области изображения"
+	},
+	"font": {
+		"name": "font",
+		"description": "загрузка файла шрифта"
+	},
+	"length": {
+		"name": "length",
+		"description": "получение длины надписи в пикселях"
+	},
+	"line": {
+		"name": "line",
+		"description": "рисование линии на изображении"
+	},
+	"pixel": {
+		"name": "pixel",
+		"description": "работа с точками изображения"
+	},
+	"polybar": {
+		"name": "polybar",
+		"description": "рисование окрашенных многоугольников"
+	},
+	"polygon": {
+		"name": "polygon",
+		"description": "рисование неокрашенных многоугольников"
+	},
+	"polyline": {
+		"name": "polyline",
+		"description": "рисование ломаных линий"
+	},
+	"rectangle": {
+		"name": "rectangle",
+		"description": "рисование незакрашенных прямоугольников"
+	},
+	"replace": {
+		"name": "replace",
+		"description": "замена цвета в области"
+	},
+	"sector": {
+		"name": "sector",
+		"description": "рисование сектора"
+	},
+	"text": {
+		"name": "text",
+		"description": "нанесение надписей на изображение"
+	}
+}

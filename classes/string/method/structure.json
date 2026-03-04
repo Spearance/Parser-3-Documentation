@@ -1,0 +1,91 @@
+{
+	"base64-encode": {
+		"name": "base64",
+		"description": "кодирование в Base64"
+	},
+	"format": {
+		"name": "format",
+		"description": "вывод числа в заданном формате"
+	},
+	"int-double-bool": {
+		"name": "int, double, bool",
+		"description": "преобразование строки в число или bool"
+	},
+	"idna-encode": {
+		"name": "idna",
+		"description": "кодирование в IDNA"
+	},
+	"js-escape": {
+		"name": "js-escape",
+		"description": "кодирование, аналогичное функции escape в JavaScript"
+	},
+	"left-right": {
+		"name": "left, right",
+		"description": "подстрока слева и справа"
+	},
+	"length": {
+		"name": "length",
+		"description": "длина строки"
+	},
+	"match": {
+		"name": "match",
+		"description": "поиск подстроки по шаблону"
+	},
+	"match-replace": {
+		"name": "match",
+		"description": "замена подстроки, соответствующей шаблону"
+	},
+	"mid": {
+		"name": "mid",
+		"description": "подстрока с заданной позиции"
+	},
+	"pos": {
+		"name": "pos",
+		"description": "получение позиции подстроки"
+	},
+	"replace": {
+		"name": "replace",
+		"description": "замена подстрок в строке"
+	},
+	"save": {
+		"name": "save",
+		"description": "сохранение строки в файл"
+	},
+	"split": {
+		"name": "split",
+		"description": "Разбиение строки"
+	},
+	"trim": {
+		"name": "trim",
+		"description": "отсечение букв с концов строки"
+	},
+	"upper-lower": {
+		"name": "upper, lower",
+		"description": "преобразование регистра строки"
+	},
+	"base64": {
+		"name": "base64",
+		"description": "декодирование из Base64",
+		"static": true
+	},
+	"idna": {
+		"name": "idna",
+		"description": "декодирование из IDNA",
+		"static": true
+	},
+	"js-unescape": {
+		"name": "js-unescape",
+		"description": "декодирование, аналогичное unescape в JavaScript",
+		"static": true
+	},
+	"sql": {
+		"name": "sql",
+		"description": "получение строки из базы данных",
+		"static": true
+	},
+	"unescape": {
+		"name": "unescape",
+		"description": "декодирование JavaScript- или URI-кодирования",
+		"static": true
+	}
+}

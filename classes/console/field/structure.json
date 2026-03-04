@@ -1,10 +1,12 @@
 {
 	"read":{
 		"name": "чтение",
-		"description": "строки"
+		"description": "строки",
+		"static": true
 	},
 	"write": {
 		"name": "запись",
-		"description": "строки"
+		"description": "строки",
+		"static": true
 	}
 }

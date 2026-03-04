@@ -1,0 +1,52 @@
+{
+	"argv": {
+		"name": "argv",
+		"description": "аргументы командной строки",
+		"static": true
+	},
+	"body": {
+		"name": "body",
+		"description": "получение текста запроса",
+		"static": true
+	},
+	"body-charset_post-charset": {
+		"name": "body-charset, post-charset",
+		"description": "получение кодировки пришедшего POST-запроса",
+		"static": true
+	},
+	"body-file_post-body": {
+		"name": "body-file, post-body",
+		"description": "тело содержимого запроса",
+		"static": true
+	},
+	"charset": {
+		"name": "charset",
+		"description": "задание кодировки документов на сервере",
+		"static": true
+	},
+	"document-root": {
+		"name": "document-root",
+		"description": "корень веб-пространства",
+		"static": true
+	},
+	"method": {
+		"name": "method",
+		"description": "получение метода HTTP-запроса",
+		"static": true
+	},
+	"path": {
+		"name": "path",
+		"description": "получение пути запроса",
+		"static": true
+	},
+	"query": {
+		"name": "query",
+		"description": "получение параметров строки запроса",
+		"static": true
+	},
+	"uri": {
+		"name": "uri",
+		"description": "получение URI запроса",
+		"static": true
+	}
+}

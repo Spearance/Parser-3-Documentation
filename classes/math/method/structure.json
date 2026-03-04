@@ -1,0 +1,92 @@
+{
+	"abs-sign": {
+		"name": "abs, sign",
+		"description": "операции со знаком",
+		"static": true
+	},
+	"convert": {
+		"name": "convert",
+		"description": "конвертирование систем счисления",
+		"static": true
+	},
+	"crc32": {
+		"name": "crc32",
+		"description": "подсчет контрольной суммы строки",
+		"static": true
+	},
+	"crypt": {
+		"name": "crypt",
+		"description": "хеширование паролей",
+		"static": true
+	},
+	"degrees-radians": {
+		"name": "degrees, radians",
+		"description": "преобразования градусы ↔︎ радианы",
+		"static": true
+	},
+	"digest": {
+		"name": "digest",
+		"description": "криптографическое хеширование",
+		"static": true
+	},
+	"exp-log-log10": {
+		"name": "exp, log, log10",
+		"description": "логарифмические функции",
+		"static": true
+	},
+	"md5": {
+		"name": "md5",
+		"description": "MD5-отпечаток строки",
+		"static": true
+	},
+	"pow": {
+		"name": "pow",
+		"description": "возведение числа в степень",
+		"static": true
+	},
+	"random": {
+		"name": "random",
+		"description": "случайное число",
+		"static": true
+	},
+	"round-floor-ceiling": {
+		"name": "round, floor, ceiling",
+		"description": "округления",
+		"static": true
+	},
+	"sha1": {
+		"name": "sha1",
+		"description": "хеш строки по алгоритму SHA1",
+		"static": true
+	},
+	"sin-asin-cos-acos-tan-atan-atan2": {
+		"name": "sin, asin, cos, acos, tan, atan, atan2",
+		"description": "тригонометрические функции",
+		"static": true
+	},
+	"sqrt": {
+		"name": "sqrt",
+		"description": "квадратный корень числа",
+		"static": true
+	},
+	"trunc-frac": {
+		"name": "trunc, frac",
+		"description": "операции с целой/дробной частью числа",
+		"static": true
+	},
+	"uid64": {
+		"name": "uid64",
+		"description": "64-битный уникальный идентификатор",
+		"static": true
+	},
+	"uuid": {
+		"name": "uuid",
+		"description": "универсальный уникальный идентификатор версии 4",
+		"static": true
+	},
+	"uuid7": {
+		"name": "uuid7",
+		"description": "универсальный уникальный идентификатор версии 7",
+		"static": true
+	}
+}

@@ -1,0 +1,10 @@
+{
+    "table-format": {
+        "name": "Опции",
+        "description": "формата файла"
+    },
+    "copy-search": {
+			"name": "Опции",
+			"description": "копирования и поиска"
+	}
+}

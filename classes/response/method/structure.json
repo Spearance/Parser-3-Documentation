@@ -1,0 +1,7 @@
+{
+	"clear": {
+		"name": "clear",
+		"description": "отмена задания новых заголовков HTTP-ответа",
+		"static": true
+	}
+}
